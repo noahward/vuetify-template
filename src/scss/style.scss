@@ -1,3 +1,7 @@
 @import './variables';
 @import 'vuetify/styles/main.sass';
 @import './override';
+
+@import './layout/text';
+@import './layout/reboot';
+@import './layout/container';

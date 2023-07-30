@@ -5,8 +5,13 @@ import { RouterView } from 'vue-router'
 <template>
   <v-app>
     <v-main>
-      <v-container fluid>
-        <RouterView />
+      <v-container
+        fluid
+        class="page-wrapper"
+      >
+        <div class="max-width-override">
+          <RouterView />
+        </div>
       </v-container>
     </v-main>
   </v-app>

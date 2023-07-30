@@ -1,0 +1,13 @@
+// Custom width and height classes
+$intervals: 20;
+
+@for $i from 1 through $intervals {
+  $percentage: $i * 5;
+  .w-#{$percentage} {
+    width: unquote($percentage + '%');
+  }
+
+  .h-#{$percentage} {
+    height: unquote($percentage + '%');
+  }
+}
